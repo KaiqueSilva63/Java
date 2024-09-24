@@ -1,2 +1,2 @@
 # Java
-Exercicios de JAva feitos no primeiro semestre/ciclo
+Exercicios de Java feitos no primeiro semestre/ciclo.
