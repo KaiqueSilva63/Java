@@ -1,0 +1,14 @@
+public class Main{
+	public static void main(String[] args) {
+	   int h = 1, n = 0, soma = 0 ;
+	   Scanner scanner = new Scanner(System.in);
+	   System.out.print(" Digite um valor: ");
+	   h = scanner.nextInt();
+	  
+	  while (soma < h){
+	     soma = h + n;
+	      System.out.println(soma);
+	  }
+	    
+	}
+}
