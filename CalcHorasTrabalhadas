@@ -4,7 +4,7 @@ public class Main{
 	   int number = 0; 
 	   int horasTraba = 0;
 	   double salary = 0;
-	   
+ 
 	   Scanner scanner = new Scanner(System.in);
 	   System.out.print("NUMBER = ");
 	   number = scanner.nextInt();
@@ -15,8 +15,9 @@ public class Main{
 	  System.out.print("SALARY = ");
 	  salary = scanner.nextDouble();
 	  
+	  double salaryfinal = salary * horasTraba;
 	  System.out.println("NUMBER = " + number);
-	  System.out.print(String.format("SALARY = %.2f", (salary * horasTraba)));
+	  System.out.print(String.format("SALARY = U$ %.2f", salaryfinal));
 	  
   }
 }
