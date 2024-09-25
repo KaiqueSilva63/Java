@@ -1,5 +1,5 @@
 import java.util.Scanner;
-/*Lê um inteiro, calcular seu triplo e mostra seu antecessor e sucessor, seguido individualmente de antecessor e sucessor.*/
+/*Lê um inteiro, efetua a soma do dobro e triplo, calcula seu triplo e mostra seu antecessor e sucessor, seguido individualmente de antecessor e sucessor.*/
 public class Main{
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
